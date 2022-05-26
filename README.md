@@ -101,3 +101,7 @@ Something like:
 ## Bug Reporting
 
 Feel free to leave an issue in this repo, I'll try to fix things if needed.  No promises.  Honestly if you just want to fork this and improve it as you see fit, feel free, no skin off my back.
+
+## Final notes
+
+The `cultures` folder exists as test data to be used, with three files already converted and three unconverted.  Those would be `000_abajeno.txt`, `000_abenaki.txt`, `000_acadien.txt` and `000_maracaju.txt`, `000_margariteno.txt`, and `000_maritimer.txt` respectively.  As bugs are fixed/features added, those files (and more) will be used for testing.  Hey, self, that's a good todo: some automated testing baybee
