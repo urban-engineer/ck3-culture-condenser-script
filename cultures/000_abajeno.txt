@@ -1,0 +1,39 @@
+﻿abajeno = {
+        color = {  200 130 100  }
+        
+        
+        ethos = ethos_spiritual
+        heritage = heritage_mexicano
+        language = language_mexicano
+        martial_custom = martial_custom_male_only
+        name_list = name_list_abajeno
+        
+        traditions = {
+            #TODO
+                tradition_warrior_monks
+        tradition_dia_de_muertos
+        tradition_ancient_miners
+        }
+        
+        coa_gfx = {
+            abajeno_coa_gfx
+        }
+        building_gfx = {
+			mediterranean_building_gfx
+        }
+        clothing_gfx = {
+			western_clothing_gfx
+        }
+        unit_gfx = {
+			mena_unit_gfx
+        }
+        
+        ethnicities = {
+            
+			5 = mediterranean
+			5 = mesoamerican
+			90 = med_indigenous
+		
+        }
+        
+}

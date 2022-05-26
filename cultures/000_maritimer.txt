@@ -1,0 +1,60 @@
+﻿maritimer = {
+        color = {  0 127 102  }
+        
+        
+        ethos = ethos_stoic
+        heritage = heritage_north_atlantic
+        language = language_maritime
+        martial_custom = martial_custom_male_only
+        name_list = name_list_maritimer
+        
+        traditions = {
+            #TODO
+                tradition_fishermen
+        tradition_maritime_mercantilism
+        tradition_reverence_for_veterans
+        tradition_family_entrepreneurship
+        }
+        
+        coa_gfx = {
+            canadian_clothing_gfx
+        maritimer_coa_gfx
+        north_atlantic_coa_gfx
+        western_building_gfx
+        northern_clothing_gfx
+        northern_unit_gfx
+        }
+        building_gfx = {
+            canadian_clothing_gfx
+        maritimer_coa_gfx
+        north_atlantic_coa_gfx
+        western_building_gfx
+        northern_clothing_gfx
+        northern_unit_gfx
+        }
+        clothing_gfx = {
+            canadian_clothing_gfx
+        maritimer_coa_gfx
+        north_atlantic_coa_gfx
+        western_building_gfx
+        northern_clothing_gfx
+        northern_unit_gfx
+        }
+        unit_gfx = {
+            canadian_clothing_gfx
+        maritimer_coa_gfx
+        north_atlantic_coa_gfx
+        western_building_gfx
+        northern_clothing_gfx
+        northern_unit_gfx
+        }
+        
+        ethnicities = {
+            
+			15 = african
+			80 = caucasian
+			5 = amerindian
+		
+        }
+        
+}

@@ -1,0 +1,65 @@
+﻿maracaju = {
+        color = {  163 114 48  }
+        
+        
+        ethos = ethos_spiritual
+        heritage = heritage_jesuitic
+        language = language_caipira
+        martial_custom = martial_custom_male_only
+        name_list = name_list_maracaju
+        
+        traditions = {
+            #TODO
+                tradition_boiadeiros
+        tradition_welcoming
+        tradition_materos
+        }
+        
+        coa_gfx = {
+            maracaju_coa_gfx
+        centrestino_group_gfx
+        steppe_building_gfx
+        mediterranean_building_gfx
+        #byzantine_clothing_gfx
+        mongol_unit_gfx
+        }
+        building_gfx = {
+            maracaju_coa_gfx
+        centrestino_group_gfx
+        steppe_building_gfx
+        mediterranean_building_gfx
+        #byzantine_clothing_gfx
+        mongol_unit_gfx
+        }
+        clothing_gfx = {
+            maracaju_coa_gfx
+        centrestino_group_gfx
+        steppe_building_gfx
+        mediterranean_building_gfx
+        #byzantine_clothing_gfx
+        mongol_unit_gfx
+        }
+        unit_gfx = {
+            maracaju_coa_gfx
+        centrestino_group_gfx
+        steppe_building_gfx
+        mediterranean_building_gfx
+        #byzantine_clothing_gfx
+        mongol_unit_gfx
+        }
+        
+        ethnicities = {
+            
+			5 = african
+			5 = arab
+			15 = caucasian
+			25 = mediterranean
+			5 = amazonian
+			15 = med_indigenous
+			5 = white_indigenous
+			5 = black_white
+			20 = med_black_ind
+		
+        }
+        
+}

@@ -1,0 +1,40 @@
+﻿abenaki = {
+        color = {  114 142 224  }
+        
+        
+        ethos = ethos_spiritual
+        heritage = heritage_north_atlantic
+        language = language_abenakian
+        martial_custom = martial_custom_male_only
+        name_list = name_list_abenaki
+        
+        traditions = {
+            #TODO
+				tradition_syrup_makers
+				tradition_forest_fighters
+				tradition_storytellers
+				tradition_hunters
+        }
+        
+        coa_gfx = {
+            north_atlantic_coa_gfx
+        }
+        building_gfx = {
+			western_building_gfx
+        }
+        clothing_gfx = {
+			northern_clothing_gfx
+        }
+        unit_gfx = {
+			northern_unit_gfx
+        }
+        
+        ethnicities = {
+            
+			10 = caucasian
+			80 = amerindian
+			10 = white_indigenous
+		
+        }
+        
+}

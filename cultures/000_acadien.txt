@@ -1,0 +1,40 @@
+﻿acadien = {
+        color = {  102 127 204  }
+        
+        
+        ethos = ethos_egalitarian
+        heritage = heritage_franco
+        language = language_francais
+        martial_custom = martial_custom_male_only
+        name_list = name_list_acadien
+        
+        traditions = {
+            #TODO
+                tradition_storytellers
+        tradition_fishermen
+        tradition_staunch_traditionalists
+        tradition_syrup_makers
+        }
+        
+        coa_gfx = {
+            acadien_coa_gfx
+        }
+        building_gfx = {
+			western_building_gfx
+        }
+        clothing_gfx = {
+			western_clothing_gfx
+        }
+        unit_gfx = {
+			western_unit_gfx
+        }
+        
+        ethnicities = {
+            
+			5 = arab
+			90 = caucasian
+			5 = amerindian
+		
+        }
+        
+}
