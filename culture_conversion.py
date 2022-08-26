@@ -2,13 +2,8 @@ import argparse
 import pathlib
 import typing
 
+from utils import common
 from utils import log
-
-
-def clear_backup_folder(backup_folder_path: pathlib.Path):
-    if backup_folder_path.exists() and backup_folder_path.is_dir():
-        for file in [x for x in backup_folder_path.iterdir() if x.is_file()]:
-            file.unlink()
 
 
 def parse_file(file: pathlib.Path) -> typing.List[str]:
@@ -70,22 +65,15 @@ if __name__ == "__main__":
     culture_folder = pathlib.Path(args.culture_path)
     log.debug("Parsing culture files in [{}]".format(culture_folder))
 
-    backup_folder = culture_folder.joinpath("bak")
-    if not args.wipe:
-        log.debug("Original culture files will be backed up to [{}]".format(backup_folder))
-
-    if not args.wipe and not args.dry_run:
-        if backup_folder.exists():
-            clear_backup_folder(backup_folder)
-        backup_folder.mkdir(exist_ok=True)
+    backup_folder = culture_folder.parent.joinpath("{}.bak".format(culture_folder.name))
+    if args.wipe:
+        common.clear_backup_folder(backup_folder)
+    else:
+        common.backup_files(culture_folder, backup_folder, args.dry_run)
 
     for culture in sorted([x for x in culture_folder.iterdir() if x.is_file()]):
         new_contents = parse_file(culture)
-
         if not args.dry_run:
-            if not args.wipe:
-                culture.rename(backup_folder.joinpath(culture.name))
-
             culture.write_text("\n".join(new_contents), encoding="utf-8")
 
     log.debug("Conversion complete")
