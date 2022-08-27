@@ -50,7 +50,7 @@ if __name__ == "__main__":
     else:
         common.backup_files(religion_folder, backup_folder, args.dry_run)
 
-    for religion in sorted([x for x in religion_folder.iterdir() if x.is_file()]):
+    for religion in sorted([x for x in religion_folder.iterdir() if x.is_file() and x.name.endswith("txt")]):
         new_contents = set_custom_icons(religion, args.start_number, args.end_number)
         if not args.dry_run:
             religion.write_text("\n".join(new_contents), encoding="utf-8")

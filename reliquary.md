@@ -16,8 +16,6 @@ custom_faith_icons = {
 
 This is fine, but writing this out for each religion is tedious and error-prone.  This script will automatically write the `customX` string to religion files given the appropriate bounds.
 
-If it finds an empty file, this script will instead write a basic 'template' instead.  It's modeled after `000_nanakpanthi.txt` (provided by a modder), and is designed to be the bare-minimum necessary for a religion to be defined.  Do note that I personally do not mod CK3, so I have no idea if I'm lying to you, intentionally or not.
-
 ## Execution
 
 1. Open a command prompt/terminal instance/Powershell session in the folder containing `reliquary.py`.
